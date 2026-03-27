@@ -27,7 +27,14 @@ const Cards = () => {
   return (
 
      <>
-         <div className='cards-container grid grid-cols '></div>
+        <div id='parent'>
+            <div className="card">
+                <div className="card-banner">
+                    <img src="" alt="" />
+                </div>
+                <div className="card-details"></div>
+            </div>
+         </div>
      </>
 
   )
